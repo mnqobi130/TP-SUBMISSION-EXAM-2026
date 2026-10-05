@@ -1,5 +1,8 @@
 # eThekwini Metro - 04 Nov 2026 Local Government Election Forecast
 
+## Student number: 22354752
+## Initials and surname: MS KHANYILE
+
 Voting-district-level forecast built on the 2016 and 2021 results, following the ML lifecycle
 (problem definition, data audit, features, training, validation, prediction, deployment).
 
