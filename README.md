@@ -20,6 +20,8 @@ Voting-district-level forecast built on the 2016 and 2021 results, following the
 | `app.py` | Streamlit dashboard |
 | `data/` | `2016_Results.csv` (2016), `ETH.csv` (2021), `Pre_Election_Voting_Districts_2026.csv` |
 
+Trained models are cached with joblib in `models/` (git-ignored).
+
 ## Dashboard link 
 https://tp-submission-exam-2026-hly8jlzlwbusxadtdyrk8l.streamlit.app/
 
@@ -28,7 +30,6 @@ dataset1= https://results.elections.org.za/home/downloads/me-results
 dataset2= https://results.elections.org.za/home/Downloads/ME-Results?utm_source=chatgpt.com
 dataset3= https://gis-ethekwini.opendata.arcgis.com/datasets/ec59c469ceda4017a50f37b22d4afe56_0/explore?location=-29.876259%2C30.874121%2C9
 
-Trained models are cached with joblib in `models/` (git-ignored).
 
 ## Method
 Votes are converted to centred log-ratios per voting district. Forecast =
