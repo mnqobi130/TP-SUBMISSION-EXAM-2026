@@ -20,12 +20,9 @@ Voting-district-level forecast built on the 2016 and 2021 results, following the
 | `app.py` | Streamlit dashboard |
 | `data/` | `2016_Results.csv` (2016), `ETH.csv` (2021), `Pre_Election_Voting_Districts_2026.csv` |
 
-## Run
-```bash
-pip install -r requirements.txt
-jupyter notebook ElectionForecast.ipynb   # Restart & Run All
-streamlit run app.py                                # dashboard
-```
+## Dashboard link 
+https://tp-submission-exam-2026-hly8jlzlwbusxadtdyrk8l.streamlit.app/
+
 Trained models are cached with joblib in `models/` (git-ignored).
 
 ## Method
